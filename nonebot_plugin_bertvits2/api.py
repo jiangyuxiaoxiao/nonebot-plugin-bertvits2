@@ -31,7 +31,8 @@ class speaker:
             "model_id": self.model_id,
             "speaker_id": self.speaker_id,
             "language": language if language is not None else self.language,
-            "auto_translate": autoTranslate
+            "auto_translate": str(autoTranslate),
+            "auto_split": "True"
         }
         async with aiohttp.ClientSession() as session:
             async with session.get(url=url, params=params) as response:
