@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "nonebot-plugin-bertvits2"
-version = "0.1.2"
+version = "0.1.3"
 description = ""
 authors = ["Sora <atri@suzakuintsubaki.com>"]
 readme = "README.md"

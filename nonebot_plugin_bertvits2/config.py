@@ -9,6 +9,6 @@ from pydantic import BaseModel, validator
 
 
 class Config(BaseModel):
-    bertvits_host: str = "127.0.0.1"
+    bertvits_host: str = "http://127.0.0.1"
     bertvits_port: int = 5000
     bertvits_auto_translate: bool = False
